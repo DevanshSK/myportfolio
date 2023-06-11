@@ -1,6 +1,8 @@
 import About from "@/components/About";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import WorkExperience from "@/components/WorkExperience";
+import { Element } from "react-scroll";
 
 export default function Home() {
   return (
@@ -19,6 +21,9 @@ export default function Home() {
       </section>
 
       {/* Experience */}
+      <section className="snap-center" id="experience">
+        <WorkExperience />
+      </section>
 
       {/* Skills */}
 

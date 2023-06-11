@@ -41,9 +41,8 @@ const About = (props: Props) => {
 
       <div className="space-y-5 sm:space-y-10 px-0 mt-20 md:px-10 flex-1">
         <h4 className="text-2xl md:text-4xl font-semibold">
-          Here is a{" "}
-          <span className="underline decoration-[#f7ab0a]/50">little</span>{" "}
-          background
+          Know more about{" "}
+          <span className="underline decoration-[#f7ab0a]/50">Me!</span>
         </h4>
         <p className="text-base">
           I am a web developer with experience in MERN stack, Flutter, and

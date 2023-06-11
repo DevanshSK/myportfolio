@@ -38,6 +38,7 @@ const Hero = (props: Props) => {
         </h1>
 
         <div className="pt-5">
+          {/* Previous Link Tags */}
           <Link href="#about">
             <button className="hero-button">About</button>
           </Link>
